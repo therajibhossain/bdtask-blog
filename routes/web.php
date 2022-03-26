@@ -23,6 +23,6 @@ Route::get('/dashboard', function () {
 })->middleware(['auth'])->name('dashboard');
 
 // Route::resource('posts', 'PostController');
-Route::resource('posts', PostController::class);
+Route::resource('posts', PostController::class)->middleware(['auth']);
 
 require __DIR__.'/auth.php';
