@@ -9,7 +9,8 @@
 </p>
 
 ## Installation
-Just clone the project from GIT and place and run to your web like "localhost/bdtask-blog/public". PHP =>73 version needed. <br /> 
+Just clone the project from GIT and place and run to your web like "localhost/bdtask-blog/public". <br />
+PHP =>73 version needed. <br /> 
 Run composer install <br />
 Run npm install <br />
 Run php artisan migrate <br />
